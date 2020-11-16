@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favourite Things</title>
+    <!-- this has to be a css file -->
+    <link href="images/favicon.ico" rel="shortcut icon"/>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+            <section class="introduceWrap">
+                <div class="introduce">
+                    <h1><span class="introduce_a"  >Hello.</span><span>This is my Favourite Things!</span></h1>
+                    <p class="introduceTxt">Do you want to know me? Below are my three favorite things. I like Van Gogh’s paintings. I like reading Pride and Prejudice. I am still a person who likes spicy food. I like to eat all kinds of spicy food. My favorite is Chinese spicy hot pot! What about u?There are Three my fav things Pics and a Video</p>
+                </div>
+            </section>
+
+            <section class="lightboxes">
+                <div class="sdfsdfds">
+                        <button class="button">X</button>
+                        <h2 class="h2s">Description</h2>
+                        <img class="imagen" src="images/book.jpg">
+                        <p class="description"></p>
+                </div>
+            </section>
+
+    <main id="app" class="maintop">
+        <!-- this is an HTML component -->
+        <nav class="main-nav">
+            <ul>
+                <li class="nav-item"><a href="#">Painting</a></li>
+                <li class="nav-item"><a href="#">Hotpot</a></li>
+                <li class="nav-item"><a href="#">Book</a></li>
+            </ul>
+        </nav>
+        <!-- end component -->
+
+        <!-- add a users section here -->
+        <section class="favourite-section">
+            <!-- user-template copies get rendered here -->
+        </section>
+        <!-- end users section -->
+    </main>
+        <div class="videWrap">
+              <h1><span class="videWrap_a">VIDEO</span></h1>
+             <p class="introduceTxt">what about your favourite? Can you share with me?</p>
+        </div>
+
+       <div class="videmedia">
+        <video width="750px" height="350px" src="images/video_1.mp4"  controls="controls"></video>
+       </div>
+
+    <footer>@copyright Cindy 2020</footer>
+
+    <!-- template files here (these don't render) -->
+    <template  class="favourite-template">
+        <div class="favouriteThings">
+            <img src="images/Painting.jpg" alt="favourite-avatar" width="400px" height="300px" />
+            <h2 class="favourite-name" align="center">1111111111</h2>
+            <p class="favourite-type">111111</p>
+            <p class="favourite-reason">111111</p>
+
+        </div>
+    </template>
+    <!-- end templates -->
+
+    <!-- script files always go here -->
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

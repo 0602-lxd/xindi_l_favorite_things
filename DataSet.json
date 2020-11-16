@@ -1,0 +1,26 @@
+ {
+    "Painting": {
+        "name": "Almond Blossom",
+        "type": "Oil on Canvas",
+        "reason": "I love Vincent Willem van Gogh when i was young. This painting create a joy of spring.",
+        "description": "It is pinted in 1980 in French. Flowering trees were special to van Gogh. They represented awakening and hope. He enjoyed them aesthetically and found joy in painting flowering trees.",
+        "avatar": "Painting.jpg"
+    },
+
+    "Hotpot": {
+        "name": "Spicy Hotpot",
+        "type": "Chinese Food",
+        "reason": "I love spicy food very much and hotpot is delicious and convenient!",
+        "description": "While a hot pot full of flavored broth is kept simmering, raw ingredients are placed into the pot and are cooked in a manner similar to fondue.",
+        "avatar": "hotpot.jpg"
+    },
+
+    "Book": {
+        "name": "Pride and Prejudice",
+        "type": "novel of manner",
+        "reason": "I love Pride and Prejudice because it is a classic love story and it set the pattern for a modern popular love story.",
+        "description": "Pride and Prejudice follows the turbulent relationship between Elizabeth Bennet, the daughter of a country gentleman, and Fitzwilliam Darcy, a rich aristocratic landowner. They must overcome the titular sins of pride and prejudice in order to fall in love and marry.",
+        "avatar": "book.jpg"
+    }
+
+}
